@@ -99,6 +99,12 @@ all.config
 arch/arm64/kernel/vdso/vdso-offsets.h
 arch/arm64/kernel/vdso/vdso.lds
 arch/arm64/kernel/vmlinux.lds
+crypto/asymmetric_keys/pkcs7-asn1.c
+crypto/asymmetric_keys/pkcs7-asn1.h
+crypto/asymmetric_keys/x509-asn1.c
+crypto/asymmetric_keys/x509-asn1.h
+crypto/asymmetric_keys/x509_rsakey-asn1.c
+crypto/asymmetric_keys/x509_rsakey-asn1.h
 firmware/coreriver/tc305k_j7pop.fw
 firmware/coreriver/tc305k_j7pop.fw.gen.S
 firmware/coreriver/tc305k_j7top.fw
@@ -125,10 +131,13 @@ firmware/tsp_melfas/mms438_j7x_hd.fw.gen.S
 firmware/tsp_melfas/mms438_j7y17.fw
 firmware/tsp_melfas/mms438_j7y17.fw.gen.S
 kernel/config_data.h
+kernel/x509_certificate_list
 kernel/time/hz.bc
 kernel/time/timeconst.h
 lib/crc32table.h
 lib/gen_crc32table
+lib/oid_registry_data.c
+scripts/asn1_compiler
 scripts/basic/bin2c
 scripts/basic/fixdep
 scripts/dtc/dtc
